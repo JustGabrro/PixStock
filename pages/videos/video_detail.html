@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Video detail - Pixstock</title>
+  <meta name="title" content="Video detail - Pixstock">
+  <meta name="description" content="This is a stock photos app made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="../../favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - theme js link
+  -->
+  <script src="../../js/theme.js"></script>
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- 
+    - material icon link
+  -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0..1,0" />
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../../css/style.css">
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./video_detail.js" type="module"></script>
+
+</head>
+
+<body class="detail">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="top-app-bar" data-header>
+
+    <button class="icon-btn" data-ripple aria-label="Back to previous page" onclick="window.history.back()">
+      <span class="material-symbols-outlined" aria-hidden="true">arrow_back</span>
+
+      <div class="state-layer"></div>
+    </button>
+
+    <a href="/" class="logo">Pixstock</a>
+
+    <div class="menu-wrapper" data-menu-wrapper>
+
+      <div class="split-btn">
+
+        <a href="" class="label" download data-ripple data-download-link>
+          <span class="label-large">Download</span>
+
+          <div class="state-layer"></div>
+        </a>
+
+        <button class="trailing-icon" data-ripple data-menu-toggler>
+          <span class="material-symbols-outlined" aria-hidden="true">arrow_drop_down</span>
+
+          <div class="state-layer"></div>
+        </button>
+
+      </div>
+
+      <div class="menu" data-menu data-download-menu></div>
+
+    </div>
+
+    <button class="icon-btn" aria-label="add to favorite" data-ripple data-add-favorite>
+      <span class="material-symbols-outlined" aria-hidden="true">favorite</span>
+
+      <div class="state-layer"></div>
+    </button>
+
+    <button class="icon-btn theme-btn" aria-label="Switch theme" data-theme-toggler data-ripple>
+      <span class="material-symbols-outlined dark-icon" aria-hidden="true">dark_mode</span>
+
+      <span class="material-symbols-outlined light-icon" aria-hidden="true">light_mode</span>
+
+      <div class="state-layer"></div>
+    </button>
+
+  </header>
+
+
+
+
+
+  <main class="main">
+    <article class="container">
+
+      <div class="detail-wrapper" data-detail-wrapper></div>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-card">
+
+        <div class="col">
+          <a href="/" class="logo">Pixstock</a>
+
+          <p class="text body-small">
+            Pixstock is a stock photo app developed by <span class="color-primary">codewithsadee</span> and all Photos
+            and Videos provided by <a href="https://pexels.com" target="_blank" class="color-primary">Pexels</a>.
+          </p>
+        </div>
+
+        <div class="col">
+
+          <p class="title label-medium">Follow us on</p>
+
+          <div class="social-list">
+
+            <a href="https://youtube.com/@codewithsadee" target="_blank" class="label-small color-primary">YouTube</a>
+
+            <a href="https://github.com/@codewithsadee" target="_blank" class="label-small color-primary">GitHub</a>
+
+            <a href="https://twitter.com/@codewithsadee" target="_blank" class="label-small color-primary">Twitter</a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
